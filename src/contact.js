@@ -1,7 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import { Container, Form } from "react-bootstrap";
-import emailjs from "@emailjs/browser";
+import * as emailjs from "emailjs-com";
 import em from "./emailkey";
 const Contact = () => {
   const form = useRef();
@@ -14,6 +14,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          alert("message sent");
         },
         (error) => {
           console.log(error.text);
