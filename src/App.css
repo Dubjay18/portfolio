@@ -105,18 +105,21 @@ h1 {
 .btn-outline-dark:hover > a {
   color: #fff;
 }
+.ob {
+  object-fit: contain;
+}
 @media (min-width: 900px) {
   .hero h1 {
-    font-size: 3.6rem !important;
+    font-size: 3rem !important;
   }
   .hero p {
-    font-size: 1.7rem !important;
+    font-size: 1.4rem !important;
   }
   .btn-outline-dark {
-    font-size: 2rem !important;
+    font-size: 1.2rem !important;
   }
   .btn-outline-light {
-    font-size: 2rem !important;
+    font-size: 1.2rem !important;
   }
 }
 @media (max-width: 800px) {

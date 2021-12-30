@@ -14,7 +14,7 @@ const About = () => {
 
         <Row>
           <Col md={6} sm={12}>
-            <img src={abpic} width="50%" height="100%" alt="" />
+            <img src={abpic} width="50%" height="100%" alt="" className="ob" />
           </Col>
           <Col md={6} sm={12} className="p-lg-0 pb-5">
             <p className="w-100 mt-5 ">
