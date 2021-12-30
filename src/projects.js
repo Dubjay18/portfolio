@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import pro from "./images/image-header-desktop.jpg";
+
 import Tilt from "react-tilt";
 import { Data } from "./data";
 
