@@ -11,7 +11,11 @@ const Footer = ({ up }) => {
 
         <div className="d-flex justify-content-between  w-100 footer-small">
           <div className="p-5 social-links">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/yanfunmi-jeje-a023b2210"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {" "}
               <Linkedin className="" />
             </a>
