@@ -19,8 +19,8 @@ const Projects = () => {
       <div>
         <Container className="mt-5 pb-5">
           {Data.map((e) => (
-            <Row className="w-100 pb-prime">
-              <Col lg={5} sm={12}>
+            <Row className="w-100 pb-prime ms-2">
+              <Col lg={5} sm={12} className="mb-lg-0 mb-4">
                 <div className="w-100  ">
                   <h3>{e.name}</h3>
                   <p className="mb-4">{e.dep}</p>
@@ -54,7 +54,7 @@ const Projects = () => {
                     <img
                       src={e.img_src}
                       alt=""
-                      width="60%"
+                      width="100%"
                       className="shadow-lg"
                     />
                   </Tilt>
