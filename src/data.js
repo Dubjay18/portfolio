@@ -33,7 +33,7 @@ export const Data = [
   {
     name: "Todo App",
     dep: "This is a to-do app built with the MERN stack(Mongodb, Express, React Js, Node Js).",
-    img_src: pro4,
+    img_src: pro5,
     see_live: "https://todofrontend-jvbca17ty-dubjay18.vercel.app/",
   },
 ];
