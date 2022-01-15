@@ -2,6 +2,7 @@ import pro from "./images/robo.png";
 import pro2 from "./images/slack.png";
 import pro3 from "./images/net2.jpg";
 import pro4 from "./images/jayverse.png";
+import pro5 from "./images/todo.png";
 
 export const Data = [
   {
@@ -28,5 +29,11 @@ export const Data = [
     name: " Robofriends",
     dep: "This is a small app with a fully functional search filter. It was built with React Js and a third party api.",
     img_src: pro,
+  },
+  {
+    name: "Todo App",
+    dep: "This is a to-do app built with the MERN stack(Mongodb, Express, React Js, Node Js).",
+    img_src: pro4,
+    see_live: "https://todofrontend-jvbca17ty-dubjay18.vercel.app/",
   },
 ];
